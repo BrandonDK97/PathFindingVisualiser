@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import { useState } from 'react'
 import { getGrid } from '../../utils/startingGrid'
-import './grid.css'
 import { useParams } from '../../context/Context'
 
 export default function Grid() {
